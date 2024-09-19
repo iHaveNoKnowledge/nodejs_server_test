@@ -12,5 +12,5 @@ app.get("/", (req, res, next) => {
 
 const port = 3000;
 app.listen(port, () => {
-  console.log("server start at port: " + port);
+    console.log("server start at port: " + port);
 });
