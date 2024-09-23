@@ -8,7 +8,7 @@ exports.runPythonScript = (req, res) => {
   console.log(req, res);
 
   //* spawn ใช้รัน python script
-  const pythonProcess = spawn("python3", ["py/scripts/main.py", "--func", funcName]);
+  const pythonProcess = spawn("py", ["py/scripts/main.py", "--func", funcName]);
 
   //* รับผลลัพธ์จาก python script
   let output = "";
@@ -22,11 +22,15 @@ exports.runPythonScript = (req, res) => {
       res.send(`Python script output: ${output}`);
     } else {
       //   res.status(500).send(`Error running Python script (code: ${code})`);
-      res.status(500).send(`Error running Python script)`);
+      // res.status(500).send(`Error running Python script)`);
     }
   });
 };
 
 exports.py01 = (req, res) => {
   res.send("py01");
+};
+
+exports.py02 = (req, res) => {
+  res.send("py02");
 };
