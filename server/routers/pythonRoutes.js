@@ -9,4 +9,6 @@ router.get("/py01", pythonController.py01);
 
 router.get("/py02", pythonController.py02);
 
+router.get("/version", pythonController.get_version);
+
 module.exports = router;

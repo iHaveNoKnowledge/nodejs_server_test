@@ -1,4 +1,5 @@
 const { spawn } = require("child_process");
+const dataVersion = require("../version.json");
 
 exports.runPythonScript = (req, res) => {
   const command = req.query.command || "Hello";
@@ -33,4 +34,9 @@ exports.py01 = (req, res) => {
 
 exports.py02 = (req, res) => {
   res.send("py02");
+};
+
+exports.get_version = (req, res) => {
+  console.log(`${dataVersion.version}: ${typeof dataVersion.version}`);
+  res.json(dataVersion.version);
 };
