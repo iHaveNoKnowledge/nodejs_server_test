@@ -38,21 +38,18 @@ const logger = createLogger({
       //* here is the locale format
       format: format.combine(
         format.colorize(),
-        format.printf((info) => `${info.timestamp} ${info.level}: ${info.message}`)
+        format.printf((info) => `${info.timestamp} [${info.label}] ${info.level}: ${info.message}`)
       ),
     }),
     //* อันบนสร้างแล้วมันจะค้างอยู่ในเครื่อง แต่อันล่าง มันจะมีการลบตัวเองแบบรายวัน
     // new transports.File({ filename }),
     // dailyRotateFileTransport,
     new transports.File({
-        filename,
-        format: format.combine(
-          format.printf(
-            info =>
-              `${info.timestamp} [${info.label}] ${info.level}: ${info.message}`
-          )
-        )
-      })
+      filename,
+      format: format.combine(
+        format.printf((info) => `${info.timestamp} [${info.label}] ${info.level}: ${info.message}`)
+      ),
+    }),
   ],
 });
 
