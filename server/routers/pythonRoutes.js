@@ -11,4 +11,6 @@ router.get("/py02", pythonController.py02);
 
 router.get("/version", pythonController.get_version);
 
+router.get("/download", pythonController.download);
+
 module.exports = router;

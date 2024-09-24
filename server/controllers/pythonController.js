@@ -5,6 +5,7 @@ exports.runPythonScript = (req, res) => {
   const command = req.query.command || "Hello";
   const name = req.query.name || "World";
   const funcName = req.query.func;
+  const dist_dir = "dist/client_main.py";
   console.log("funcName: ", funcName);
   console.log(req, res);
 
@@ -39,4 +40,16 @@ exports.py02 = (req, res) => {
 exports.get_version = (req, res) => {
   console.log(`${dataVersion.version}: ${typeof dataVersion.version}`);
   res.json(dataVersion.version);
+};
+
+exports.download = (req, res) => {
+  res.download(dist_dir, "client_main.py", (err) => {
+    if (err) {
+      console.error(`Error while downloading the file: ${err}`);
+      res.status(500).send("Could not download the file");
+    } else {
+      console.log("File downloaded successfully");
+      res.status(200).send("File downloaded successfully");
+    }
+  });
 };

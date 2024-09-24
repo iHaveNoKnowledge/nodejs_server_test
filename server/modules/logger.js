@@ -27,7 +27,7 @@ const logger = createLogger({
     format.timestamp({
       format: "DD-MM-YYYY HH:mm:ss",
     }),
-    format.printf((info) => `${info.timestamp} ${info.level}: ${info.message}`)
+    format.printf((info) => `${info.timestamp} [${info.label}] ${info.level}: ${info.message}`)
     // format.json()
   ),
   // format: format.json(),
@@ -43,13 +43,13 @@ const logger = createLogger({
     }),
     //* อันบนสร้างแล้วมันจะค้างอยู่ในเครื่อง แต่อันล่าง มันจะมีการลบตัวเองแบบรายวัน
     // new transports.File({ filename }),
-    // dailyRotateFileTransport,
-    new transports.File({
-      filename,
-      format: format.combine(
-        format.printf((info) => `${info.timestamp} [${info.label}] ${info.level}: ${info.message}`)
-      ),
-    }),
+    dailyRotateFileTransport,
+    // new transports.File({
+    //   filename,
+    //   format: format.combine(
+    //     format.printf((info) => `${info.timestamp} [${info.label}] ${info.level}: ${info.message}`)
+    //   ),
+    // }),
   ],
 });
 
