@@ -199,3 +199,8 @@ undefined
 24-09-2024 12:04:58 [server.js] info: Hello world
 24-09-2024 12:04:58 [server.js] verbose: Verbose message
 24-09-2024 12:04:58 [server.js] debug: Debugging info
+24-09-2024 12:08:49 [server.js] error: Error message
+24-09-2024 12:08:49 [server.js] warn: Warn message
+24-09-2024 12:08:49 [server.js] info: Hello world
+24-09-2024 12:08:49 [server.js] verbose: Verbose message
+24-09-2024 12:08:49 [server.js] debug: Debugging info
