@@ -10,20 +10,26 @@ load_dotenv()
 
 with open('version.json', 'r') as f:
     data = json.load(f)
-    version_client = data['version']
+    client_version = data['version']
 
-url_target = os.getenv("api_url")
-response = requests.get(url_target)
+serverVersionUrl = os.getenv("api_server_version")
+response = requests.get(serverVersionUrl)
 if response.status_code == 200:
-    version_server = response.json()
-    print(f"{version_server}: {type(version_server)}")
-
+    server_version = response.json()
+    print(f"{server_version}: {type(server_version)}")
 else:
     print('Error: ', response.status_code)
 
-print(f"{version.parse(version_client)} {version.parse(version_server)}")
-if version.parse(version_client) < version.parse(version_server):
+print(f"{version.parse(client_version)} < {version.parse(server_version)}")
+if version.parse(client_version) < version.parse(server_version):
     print("Download new version")
+    response = requests.get(os.getenv("api_download"))
+    if response.status_code == 200:
+        print("Download new version successfully")
+    else:
+        print("Error: ", response.status_code)
+    with open('version.json', 'w', encoding='utf-8') as json_file:
+        json.dump({"version": server_version}, json_file, ensure_ascii=False, indent=4)
 else:
     print("No new version")
 
