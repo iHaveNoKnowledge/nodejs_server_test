@@ -9,7 +9,7 @@ exports.runPythonScript = (req, res) => {
   console.log(req, res);
 
   //* spawn ใช้รัน python script
-  const pythonProcess = spawn("py", ["py/scripts/main.py", "--func", funcName]);
+  const pythonProcess = spawn("python", ["py/scripts/main.py", "--func", funcName]);
 
   //* รับผลลัพธ์จาก python script
   let output = "";

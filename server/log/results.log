@@ -1,0 +1,201 @@
+24-09-2024 11:10:06 error: Error message
+24-09-2024 11:10:06 warn: Warn message
+24-09-2024 11:10:06 info: Hello world
+24-09-2024 11:18:27 error: Error message
+24-09-2024 11:18:27 warn: Warn message
+24-09-2024 11:18:27 info: Hello world
+24-09-2024 11:18:39 error: Error message
+24-09-2024 11:18:39 warn: Warn message
+24-09-2024 11:18:39 info: Hello world
+24-09-2024 11:18:44 error: Error message
+24-09-2024 11:18:44 warn: Warn message
+24-09-2024 11:18:44 info: Hello world
+24-09-2024 11:18:48 error: Error message
+24-09-2024 11:18:48 warn: Warn message
+24-09-2024 11:18:48 info: Hello world
+24-09-2024 11:18:59 error: Error message
+24-09-2024 11:18:59 warn: Warn message
+24-09-2024 11:18:59 info: Hello world
+24-09-2024 11:19:03 error: Error message
+24-09-2024 11:19:03 warn: Warn message
+24-09-2024 11:19:03 info: Hello world
+24-09-2024 11:19:06 error: Error message
+24-09-2024 11:19:06 warn: Warn message
+24-09-2024 11:19:06 info: Hello world
+24-09-2024 11:19:18 error: Error message
+24-09-2024 11:19:18 warn: Warn message
+24-09-2024 11:19:18 info: Hello world
+24-09-2024 11:19:19 error: Error message
+24-09-2024 11:19:19 warn: Warn message
+24-09-2024 11:19:19 info: Hello world
+24-09-2024 11:19:20 error: Error message
+24-09-2024 11:19:20 warn: Warn message
+24-09-2024 11:19:20 info: Hello world
+24-09-2024 11:19:32 error: Error message
+24-09-2024 11:19:32 warn: Warn message
+24-09-2024 11:19:32 info: Hello world
+24-09-2024 11:19:34 error: Error message
+24-09-2024 11:19:34 warn: Warn message
+24-09-2024 11:19:34 info: Hello world
+24-09-2024 11:19:41 error: Error message
+24-09-2024 11:19:41 warn: Warn message
+24-09-2024 11:19:41 info: Hello world
+24-09-2024 11:19:45 error: Error message
+24-09-2024 11:19:45 warn: Warn message
+24-09-2024 11:19:45 info: Hello world
+24-09-2024 11:19:47 error: Error message
+24-09-2024 11:19:47 warn: Warn message
+24-09-2024 11:19:47 info: Hello world
+24-09-2024 11:19:47 error: Error message
+24-09-2024 11:19:47 warn: Warn message
+24-09-2024 11:19:47 info: Hello world
+24-09-2024 11:19:55 error: Error message
+24-09-2024 11:19:55 warn: Warn message
+24-09-2024 11:19:55 info: Hello world
+24-09-2024 11:20:00 error: Error message
+24-09-2024 11:20:00 warn: Warn message
+24-09-2024 11:20:00 info: Hello world
+24-09-2024 11:23:47 error: Error message
+24-09-2024 11:23:47 warn: Warn message
+24-09-2024 11:23:47 info: Hello world
+24-09-2024 11:24:46 error: Error message
+24-09-2024 11:24:46 warn: Warn message
+24-09-2024 11:24:46 info: Hello world
+24-09-2024 11:24:48 error: Error message
+24-09-2024 11:24:48 warn: Warn message
+24-09-2024 11:24:48 info: Hello world
+24-09-2024 11:24:57 error: Error message
+24-09-2024 11:24:57 warn: Warn message
+24-09-2024 11:24:57 info: Hello world
+24-09-2024 11:24:57 verbose: Verbose message
+24-09-2024 11:24:57 debug: Debugging info
+24-09-2024 11:25:02 error: Error message
+24-09-2024 11:25:02 warn: Warn message
+24-09-2024 11:25:02 info: Hello world
+24-09-2024 11:25:02 verbose: Verbose message
+24-09-2024 11:25:02 debug: Debugging info
+24-09-2024 11:25:03 error: Error message
+24-09-2024 11:25:03 warn: Warn message
+24-09-2024 11:25:03 info: Hello world
+24-09-2024 11:25:03 verbose: Verbose message
+24-09-2024 11:25:03 debug: Debugging info
+24-09-2024 11:26:43 error: Error message
+24-09-2024 11:26:43 warn: Warn message
+24-09-2024 11:26:43 info: Hello world
+24-09-2024 11:26:43 verbose: Verbose message
+24-09-2024 11:26:43 debug: Debugging info
+undefined
+undefined
+undefined
+undefined
+undefined
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:26:58"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:26:58"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:26:58"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:26:58"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:26:58"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:27:51"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:27:51"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:27:51"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:27:51"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:27:51"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:29:26"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:29:26"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:29:26"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:29:26"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:29:26"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:29:32"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:29:32"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:29:32"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:29:32"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:29:32"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:29:35"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:29:35"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:29:35"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:29:35"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:29:35"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:29:41"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:29:41"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:29:41"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:29:41"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:29:41"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:29:43"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:29:43"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:29:43"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:29:43"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:29:43"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:29:45"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:29:45"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:29:45"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:29:45"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:29:45"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:29:48"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:29:48"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:29:48"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:29:48"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:29:48"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:29:51"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:29:51"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:29:51"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:29:51"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:29:51"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:29:53"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:29:53"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:29:53"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:29:53"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:29:53"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:29:58"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:29:58"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:29:58"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:29:58"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:29:58"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:30:09"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:30:09"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:30:09"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:30:09"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:30:09"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:30:22"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:30:22"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:30:22"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:30:22"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:30:22"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:30:24"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:30:24"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:30:24"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:30:24"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:30:24"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:30:31"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:30:31"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:30:31"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:30:31"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:30:31"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:30:35"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:30:35"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:30:35"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:30:35"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:30:35"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:30:42"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:30:42"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:30:42"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:30:42"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:30:42"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:30:46"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:30:46"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:30:46"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:30:46"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:30:46"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:30:51"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:30:51"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:30:51"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:30:51"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:30:51"}
+{"level":"error","message":"Error message","timestamp":"24-09-2024 11:30:53"}
+{"level":"warn","message":"Warn message","timestamp":"24-09-2024 11:30:53"}
+{"level":"info","message":"Hello world","timestamp":"24-09-2024 11:30:53"}
+{"level":"verbose","message":"Verbose message","timestamp":"24-09-2024 11:30:53"}
+{"level":"debug","message":"Debugging info","timestamp":"24-09-2024 11:30:53"}
+24-09-2024 12:04:58 [server.js] error: Error message
+24-09-2024 12:04:58 [server.js] warn: Warn message
+24-09-2024 12:04:58 [server.js] info: Hello world
+24-09-2024 12:04:58 [server.js] verbose: Verbose message
+24-09-2024 12:04:58 [server.js] debug: Debugging info
