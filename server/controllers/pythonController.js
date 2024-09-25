@@ -21,25 +21,25 @@ exports.runPythonScript = (req, res) => {
   //* จัดการเมื่อ script รันเสร็จ
   pythonProcess.on("close", (code) => {
     if (code === 0) {
-      res.send(`Python script output: ${output}`);
+      return res.send(`Python script output: ${output}`);
     } else {
-      //   res.status(500).send(`Error running Python script (code: ${code})`);
+      return res.status(500).send(`Error running Python script (code: ${code})`);
       // res.status(500).send(`Error running Python script)`);
     }
   });
 };
 
 exports.py01 = (req, res) => {
-  res.send("py01");
+  return res.send("py01");
 };
 
 exports.py02 = (req, res) => {
-  res.send("py02");
+  return res.send("py02");
 };
 
 exports.getVersion = (req, res) => {
   console.log(`${dataVersion.version}: ${typeof dataVersion.version}`);
-  res.json(dataVersion.version);
+  return res.json(dataVersion.version);
 };
 
 exports.downloadNewVersion = (req, res) => {
@@ -47,10 +47,11 @@ exports.downloadNewVersion = (req, res) => {
   res.download(dist_dir, "client_main.py", (err) => {
     if (err) {
       console.error(`Error while downloading the file: ${err}`);
-      res.status(500).send("Could not download the file");
+      return res.status(500).send("Could not download the file");
     } else {
       console.log("File downloaded successfully");
-      res.status(200).send("File downloaded successfully");
+      return
+      // return res.status(200).send("File downloaded successfully");
     }
   });
 };
