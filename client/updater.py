@@ -35,3 +35,7 @@ else:
 
 with open('client_main.py') as file:
     exec(file.read())
+
+
+if __name__ == "__main__":
+    update_new_ver()
